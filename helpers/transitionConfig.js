@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 
-import { useTransitionComposable } from '../composables/transition-composable';
+import { useTransitionComposable } from '../composables/useTransitions';
 
 const { toggleTransitionComplete } = useTransitionComposable();
 

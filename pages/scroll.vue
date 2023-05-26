@@ -2,7 +2,7 @@
 import { onUnmounted, ref, watch } from 'vue';
 import gsap from 'gsap';
 
-import { useTransitionComposable } from '../composables/transition-composable';
+import { useTransitionComposable } from '../composables/useTransitions';
 import transitionConfig from '../helpers/transitionConfig';
 
 definePageMeta({

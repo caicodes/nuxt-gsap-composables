@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 
 import HeaderComponent from './components/HeaderComponent.vue';
-import { useTransitionComposable } from './composables/transition-composable';
+import { useTransitionComposable } from './composables/useTransitions';
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
